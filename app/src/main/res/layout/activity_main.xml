@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Peluqueria Manuel"
+            android:text="@string/titulo"
             android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -41,14 +41,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:layout_marginHorizontal="20dp"
-            android:text="Inicio Sesion" />
+            android:text="@string/iniciarSesion" />
 
         <Button
             android:id="@+id/buttonRegistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
-            android:text="Registrar" />
+            android:text="@string/registro" />
     </LinearLayout>
 
 

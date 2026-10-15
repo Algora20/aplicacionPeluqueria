@@ -1,4 +1,9 @@
 <resources>
+    <!--Splash screen-->
     <string name="app_name">aplicacionPeluquerias</string>
+    <string name="titulo">Peluqueria Manolo</string>
+    <string name="iniciarSesion">Iniciar sesion</string>
+    <string name="registro">Registrarse</string>
     <string name="descripcionEmpresa">Especialistas en cortes, peinados y cuidado de barba. Elige a tu estilista favorito, selecciona la hora que mejor te venga y olvídate de las esperas</string>
+
 </resources>
