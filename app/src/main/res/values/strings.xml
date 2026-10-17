@@ -5,5 +5,7 @@
     <string name="iniciarSesion">Iniciar sesion</string>
     <string name="registro">Registrarse</string>
     <string name="descripcionEmpresa">Especialistas en cortes, peinados y cuidado de barba. Elige a tu estilista favorito, selecciona la hora que mejor te venga y olvídate de las esperas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
