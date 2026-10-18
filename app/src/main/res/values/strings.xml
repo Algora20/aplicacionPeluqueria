@@ -1,5 +1,5 @@
 <resources>
-    <!--Splash screen-->
+    <!--splashScreen-->
     <string name="app_name">aplicacionPeluquerias</string>
     <string name="titulo">Peluqueria Manolo</string>
     <string name="iniciarSesion">Iniciar sesion</string>

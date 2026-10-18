@@ -9,7 +9,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="50dp"
+        android:paddingVertical="100dp"
+        android:paddingHorizontal="30dp"
         >
 
         <TextView
@@ -29,7 +30,7 @@
             android:id="@+id/textViewDescripcionInicioSesion"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:text="Completa tus datos para entrar"
             android:textStyle="normal"
             android:textSize="14sp"
@@ -43,7 +44,7 @@
             android:id="@+id/contenedorCorreoInicioSesion"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
             android:hint="@string/hint_email"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,6 +74,31 @@
 
 
         </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/botonInicioSesion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesion"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contenedorContraseñaInicioSesion"/>
+
+        <TextView
+            android:id="@+id/textoOlividarContrasenia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Olvido su contraseña?"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/botonInicioSesion"/>
+
 
 
 
