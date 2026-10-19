@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     tools:context=".InicioSesionFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingVertical="100dp"
+        android:paddingVertical="60dp"
         android:paddingHorizontal="30dp"
         >
 
@@ -17,7 +18,7 @@
             android:id="@+id/TextViewInicioSesion"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="INICIO SESION"
+            android:text="@string/titulo_inicio_sesion"
             android:textSize="40sp"
             android:textStyle="bold"
             android:textAlignment="center"
@@ -31,7 +32,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Completa tus datos para entrar"
+            android:text="@string/subtitulo_iniciosesion"
             android:textStyle="normal"
             android:textSize="14sp"
             android:textAlignment="center"
@@ -70,18 +71,18 @@
                 android:id="@+id/entradaContraseñaInicioSesion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress" />
+                android:inputType="textPassword" />
 
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/botonInicioSesion"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Iniciar Sesion"
+            android:text="@string/btn_iniciar_sesion"
             android:textSize="15sp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="45dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/contenedorContraseñaInicioSesion"/>
@@ -90,12 +91,12 @@
             android:id="@+id/textoOlividarContrasenia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="¿Olvido su contraseña?"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="20dp"
+            android:text="@string/olvido_contraseña"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
+
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/botonInicioSesion"/>
 

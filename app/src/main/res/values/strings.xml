@@ -6,13 +6,24 @@
     <string name="registro">Registrarse</string>
     <string name="descripcionEmpresa">Especialistas en cortes, peinados y cuidado de barba. Elige a tu estilista favorito, selecciona la hora que mejor te venga y olvídate de las esperas</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <!-- registro screen -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="titulo_registro">Crear Cuenta</string>
     <string name="subtitulo_registro">Completa tus datos para registrarte</string>
     <string name="hint_nombre">Nombre completo</string>
+    <string name="btn_crear_cuenta">Registrarse</string>
+    <string name="ya_tienes_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!--contenedores reutilizables en las pantallas-->
     <string name="hint_email">Correo electrónico</string>
     <string name="hint_telefono">Teléfono</string>
     <string name="hint_password">Contraseña</string>
-    <string name="btn_crear_cuenta">Registrarse</string>
-    <string name="ya_tienes_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!-- inicio sesion screen-->
+    <string name="titulo_inicio_sesion">INICIO SESION</string>
+    <string name="subtitulo_iniciosesion">Completa tus datos para entrar</string>
+    <string name="btn_iniciar_sesion">Iniciar Sesion</string>
+    <string name="olvido_contraseña">¿Olvido su contraseña?</string>
+
+
 </resources>
