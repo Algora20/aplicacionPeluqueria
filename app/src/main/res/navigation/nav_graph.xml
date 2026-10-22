@@ -9,6 +9,7 @@
         android:id="@+id/splashFragment"
         android:name="com.example.aplicacionpeluquerias.SplashFragment"
         android:label="SplashFragment" />
+
     <fragment
         android:id="@+id/registroFragment"
         android:name="com.example.aplicacionpeluquerias.RegistroFragment"
