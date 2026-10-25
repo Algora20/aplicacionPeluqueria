@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.aplicacionpeluquerias.SplashFragment"
+        android:name="com.example.aplicacionpeluquerias.fragments.SplashFragment"
         android:label="SplashFragment" />
 
     <fragment
         android:id="@+id/registroFragment"
-        android:name="com.example.aplicacionpeluquerias.RegistroFragment"
+        android:name="com.example.aplicacionpeluquerias.fragments.RegistroFragment"
         android:label="fragment_registro"
         tools:layout="@layout/fragment_registro" />
 </navigation>
