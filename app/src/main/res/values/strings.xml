@@ -25,5 +25,13 @@
     <string name="btn_iniciar_sesion">Iniciar Sesion</string>
     <string name="olvido_contraseña">¿Olvido su contraseña?</string>
 
+    <!-- Pantalla recuperacion-->
+    <string name="titulo_recuperar_contrasenia">RECUPERAR CONTRASEÑA</string>
+    <string name="subtitulo_recuperar">Completa los campos</string>
+    <string name="btn_telefono_recuperar">enviar sms</string>
+    <string name="btn_codigo_recuperacion">enviar codigo</string>
+    <string name="hint_codigo">Codigo</string>
+
+
 
 </resources>
