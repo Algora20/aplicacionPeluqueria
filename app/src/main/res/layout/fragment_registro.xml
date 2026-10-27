@@ -10,7 +10,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="30dp">
+        android:paddingVertical="100dp"
+        android:paddingHorizontal="30dp">
 
         <!-- Título -->
         <TextView
