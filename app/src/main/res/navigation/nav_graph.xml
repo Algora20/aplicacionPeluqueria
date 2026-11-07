@@ -48,4 +48,15 @@
         android:label="fragment_recuperar_contasenia"
         tools:layout="@layout/fragment_recuperar_contasenia">
     </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.aplicacionpeluquerias.fragments.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment" />
+    </fragment>
 </navigation>

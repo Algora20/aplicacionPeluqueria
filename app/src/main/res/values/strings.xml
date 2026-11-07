@@ -33,6 +33,5 @@
     <string name="btn_codigo_recuperacion">enviar codigo</string>
     <string name="hint_codigo">Codigo</string>
 
-
-
+    <string name="text_home">Home</string>
 </resources>
