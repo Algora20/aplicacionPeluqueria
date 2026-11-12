@@ -18,7 +18,9 @@
     <string name="hint_email">Correo electrónico</string>
     <string name="hint_telefono">Teléfono</string>
     <string name="hint_password">Contraseña</string>
-
+    <string name="error_invalid_credentials">Credenciales inválidas</string>
+    <string name="error_invalid_email">Email incorrecto</string>
+    <string name="error_password_too_short">Contraseña muy corta. Debe tener al menos 6 caracteres</string>
     <!-- inicio sesion screen-->
     <string name="titulo_inicio_sesion">INICIO SESION</string>
     <string name="subtitulo_iniciosesion">Completa tus datos para entrar</string>

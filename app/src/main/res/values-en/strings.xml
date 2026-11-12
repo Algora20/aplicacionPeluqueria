@@ -18,6 +18,9 @@
     <string name="hint_email">Email address</string>
     <string name="hint_telefono">Phone number</string>
     <string name="hint_password">Password</string>
+    <string name="error_invalid_credentials">Credentials Invalid</string>
+    <string name="error_invalid_email">Email incorrect</string>
+    <string name="error_password_too_short">Password is too short. It must be at least 6 characters long.</string>
 
     <!-- inicio sesion screen-->
     <string name="titulo_inicio_sesion">LOG IN</string>
