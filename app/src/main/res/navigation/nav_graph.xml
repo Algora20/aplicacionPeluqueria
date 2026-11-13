@@ -50,6 +50,10 @@
         android:name="com.example.aplicacionpeluquerias.fragments.RecuperarContaseniaFragment"
         android:label="fragment_recuperar_contasenia"
         tools:layout="@layout/fragment_recuperar_contasenia">
+
+        <action
+            android:id="@+id/action_recuperar_to_login"
+            app:destination="@id/inicioSesionFragment"/>
     </fragment>
 
     <fragment

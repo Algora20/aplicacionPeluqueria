@@ -26,6 +26,9 @@
     <string name="error_invalid_phone">Phone number must have at least 9 digits</string>
     <string name="msg_register_success">Account created successfully</string>
     <string name="msg_recover_sent">Recovery email sent</string>
+    <string name="error_invalid_code">Code must be at least 4 characters</string>
+    <string name="msg_sms_sent">SMS code sent to your phone</string>
+    <string name="msg_recover_success">Verification completed</string>
 
     <!-- inicio sesion screen-->
     <string name="titulo_inicio_sesion">LOG IN</string>

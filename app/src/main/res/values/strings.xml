@@ -26,6 +26,10 @@
     <string name="error_invalid_phone">El teléfono debe tener al menos 9 dígitos</string>
     <string name="msg_register_success">Cuenta creada correctamente</string>
     <string name="msg_recover_sent">Correo de recuperación enviado</string>
+    <string name="error_invalid_code">El código debe tener al menos 4 caracteres</string>
+    <string name="msg_sms_sent">Código SMS enviado a tu teléfono</string>
+    <string name="msg_recover_success">Verificación completada</string>
+
     <!-- inicio sesion screen-->
     <string name="titulo_inicio_sesion">INICIO SESION</string>
     <string name="subtitulo_iniciosesion">Completa tus datos para entrar</string>
