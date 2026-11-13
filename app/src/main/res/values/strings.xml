@@ -18,9 +18,14 @@
     <string name="hint_email">Correo electrónico</string>
     <string name="hint_telefono">Teléfono</string>
     <string name="hint_password">Contraseña</string>
-    <string name="error_invalid_credentials">Credenciales inválidas</string>
-    <string name="error_invalid_email">Email incorrecto</string>
-    <string name="error_password_too_short">Contraseña muy corta. Debe tener al menos 6 caracteres</string>
+
+    <string name="error_invalid_email">Correo electrónico no válido</string>
+    <string name="error_password_too_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_invalid_credentials">Credenciales incorrectas</string>
+    <string name="error_empty_name">El nombre no puede estar vacío</string>
+    <string name="error_invalid_phone">El teléfono debe tener al menos 9 dígitos</string>
+    <string name="msg_register_success">Cuenta creada correctamente</string>
+    <string name="msg_recover_sent">Correo de recuperación enviado</string>
     <!-- inicio sesion screen-->
     <string name="titulo_inicio_sesion">INICIO SESION</string>
     <string name="subtitulo_iniciosesion">Completa tus datos para entrar</string>

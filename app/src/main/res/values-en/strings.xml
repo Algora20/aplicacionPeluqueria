@@ -18,9 +18,14 @@
     <string name="hint_email">Email address</string>
     <string name="hint_telefono">Phone number</string>
     <string name="hint_password">Password</string>
-    <string name="error_invalid_credentials">Credentials Invalid</string>
-    <string name="error_invalid_email">Email incorrect</string>
-    <string name="error_password_too_short">Password is too short. It must be at least 6 characters long.</string>
+
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+    <string name="error_empty_name">Name cannot be empty</string>
+    <string name="error_invalid_phone">Phone number must have at least 9 digits</string>
+    <string name="msg_register_success">Account created successfully</string>
+    <string name="msg_recover_sent">Recovery email sent</string>
 
     <!-- inicio sesion screen-->
     <string name="titulo_inicio_sesion">LOG IN</string>
